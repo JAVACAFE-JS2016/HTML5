@@ -30,8 +30,8 @@
   - Contenteditablie 속성 : 커서를 올릴때만 수정할 수 있도록 하는 attribute
   - Spellcheck : 오타 입력할 때, 빨간불로 보여줌.
   - tabindex
-- <!DOCTYPE HTML> 선언해주는 습관을 가지자. (HTML 대부분 지원하지만, 지원안할 경우도 있으므로..)
-- <head>
+- ```<!DOCTYPE HTML>``` 선언해주는 습관을 가지자. (대부분 브라우저가 이 구문이 없어도 없어도 기본적으로 해석하지만...)
+- ```<head>```
   - 메타 데이터만 쓰도록
 - 부모, 자식, 자손 그리고 형제 -> HTML 내부적으로 Tree 구조로 가지고 있음.
 - HTML5 카테고리 확인 : https://www.w3.org/TR/html5/dom.html (파란색 그림)
