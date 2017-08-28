@@ -22,8 +22,8 @@
   - Single tag : 
   ```
   예
-  <hr>
-  ```
+  <hr/> // Single tag의 경우 명시적으로 닫는 습관을 들이는 편이 좋다
+  ```
 - Attribute
   - Boolean attribute
     - ex) disabled
@@ -45,8 +45,7 @@
     - 외부 스타일
     - 사용자 스타일(Safari, IE의 경우 css import하는 설정이 있음, chrome은 설치폴더 하위에 default css 파일 변경)
     - 브라우저 스타일
-    - 예외 : !important
-    - 인라인 스타일이 적용되어 있는 경우 !important는 우선순위에서 밀림.
+    - 예외 : !important -> 위에 정의한 순서와 별개로 !important가 우선순위를 가짐
     - !important가 중복으로 선언된 경우에는 사용자스타일이 가장 우선순위가 높아짐. 나머지 우선순위는 없는 경우와 동일.
   - 동일한 우선 순위 사이에 스타일 순서 결정하기
     - 참고사이트 : http://www.nextree.co.kr/p8468/
